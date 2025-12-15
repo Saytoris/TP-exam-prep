@@ -45,6 +45,4 @@ jobs:
         with:
           context: .
           push: true
-          # УВАГА: Заміни 'your_dockerhub_username/repo_name' на свої дані
-          # Наприклад: ivan_dev/progression-app:latest
-          tags: <<<ТВІЙ_DOCKERHUB_USER>>>/progression-app:latest
+          tags: saytoris/TP-exam-app:latest
