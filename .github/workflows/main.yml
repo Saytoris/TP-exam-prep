@@ -45,4 +45,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: saytoris/tp-exam-app:latest
+          tags: |
+            saytoris/tp-exam-app:${{ github.run_number }} 
+            saytoris/tp-exam-app:latest
