@@ -6,7 +6,7 @@ app = Flask(__name__)
 HTML_TEMPLATE = """
 <!doctype html>
 <html>
-<head><title>Arithmetic Progression Sum</title></head>
+<head><title>Arithmetic Progression Sum ${\n}by Laptev Oleksandr</title></head>
 <body>
     <h2>Обчислення суми арифметичної прогресії (2, 4, 6...)</h2>
     <form method="post">
